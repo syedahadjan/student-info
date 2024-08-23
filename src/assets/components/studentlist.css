@@ -1,0 +1,127 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('gtheme1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  background: linear-gradient(145deg, #0f0f0f, #2a2a2a);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border: 1px solid #333;
+  position: relative;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.logo {
+  width: 100px; 
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 255, 204, 0.3);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #00ffcc;
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.add-student-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-student-form input {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #1e1e1e;
+  color: #e0e0e0;
+  font-size: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.add-student-form input:focus {
+  border-color: #00ffcc;
+  background-color: #333;
+  outline: none;
+}
+
+.add-student-form button {
+  padding: 12px 20px;
+  background: #00ffcc;
+  color: #1e1e1e;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 255, 204, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-student-form button:hover {
+  background: #00cc99;
+  box-shadow: 0 8px 16px rgba(0, 255, 204, 0.5);
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.student-table th {
+  background: #0f0f0f;
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc;
+}
+
+.student-table tr:nth-child(even) {
+  background: #2a2a2a;
+}
+
+.student-table tr:hover {
+  background: #333;
+}
+
+.student-table button {
+  padding: 8px 12px;
+  background: #ff007a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.student-table button:hover {
+  background: #e6006c;
+  transform: scale(1.05);
+}
